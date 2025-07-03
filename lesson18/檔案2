@@ -1,0 +1,12 @@
+top = int(input())
+down = int(input())
+# 輸入頂層及底層
+if top - down < 0:
+    num = down - top + 1
+if top - down > 0:
+    num = top - down + 1
+# 條件判斷以及求層數
+total = num * abs(top - down)
+# 取絕對值及總量
+print(total)
+# 輸出總量
